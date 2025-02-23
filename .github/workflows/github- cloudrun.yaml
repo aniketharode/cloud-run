@@ -53,7 +53,7 @@ on:
 env:
   PROJECT_ID: palace-accounting # TODO: update Google Cloud project id
   GAR_LOCATION: asia-south1 # TODO: update Artifact Registry location
-  REPOSITORY: cloud-run
+  REPOSITORY: cloud-run-source-deploy
   SERVICE: cloud-run # TODO: update Cloud Run service name
   REGION: asia-south1 # TODO: update Cloud Run service region
 
