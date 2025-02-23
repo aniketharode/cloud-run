@@ -112,7 +112,7 @@ jobs:
             --region ${{ env.REGION }} \
             --project ${{ env.PROJECT_ID }} \
             --format json \
-            --service-account cloud-run-sa@palace-accounting.iam.gserviceaccount.com \
+            --service-account github-wif@palace-accounting.iam.gserviceaccount.com \
             --allow-unauthenticated
     
 
