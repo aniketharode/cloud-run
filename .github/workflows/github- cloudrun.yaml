@@ -50,12 +50,12 @@ on:
   #      - "main"
   workflow_dispatch:
 
-env:
-  PROJECT_ID: noted-ensign-357703 # TODO: update Google Cloud project id
-  GAR_LOCATION: asia-east1 # TODO: update Artifact Registry location
-  REPOSITORY: card-service-repository
-  SERVICE: card-service-cloudrun # TODO: update Cloud Run service name
-  REGION: asia-east1 # TODO: update Cloud Run service region
+#env:
+#  PROJECT_ID: noted-ensign-357703 # TODO: update Google Cloud project id
+#  GAR_LOCATION: asia-east1 # TODO: update Artifact Registry location
+#  REPOSITORY: card-service-repository
+#  SERVICE: card-service-cloudrun # TODO: update Cloud Run service name
+#  REGION: asia-east1 # TODO: update Cloud Run service region
 
 jobs:
   deploy:
